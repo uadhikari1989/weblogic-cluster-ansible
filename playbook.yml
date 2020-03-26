@@ -1,0 +1,6 @@
+---
+- name: Weblogic  Infrastructure
+  hosts: launched   
+  roles:
+    - role: setup-weblogic
+  
